@@ -1,0 +1,13 @@
+Script started on 2016年03月09日 (週三) 22時23分36秒
+]0;F74057049@2015cpp: ~F74057049@2015cpp:~$ [K]0;F74057049@2015cpp: ~F74057049@2015cpp:~$ [K]0;F74057049@2015cpp: ~F74057049@2015cpp:~$ whoami;pwd
+F74057049
+/home/F74057049
+]0;F74057049@2015cpp: ~F74057049@2015cpp:~$ git [K config -l
+user.name=siahuat0727
+user.email=tansiahuat@gmail.com
+]0;F74057049@2015cpp: ~F74057049@2015cpp:~$ git lon\\[K[K[K[K[K[K cloe\n[K[K[Kne https://github.com/siahuat0727/lab1.git
+Cloning into 'lab1'...
+warning: You appear to have cloned an empty repository.
+]0;F74057049@2015cpp: ~F74057049@2015cpp:~$ exit
+
+Script done on 2016年03月09日 (週三) 22時25分46秒
