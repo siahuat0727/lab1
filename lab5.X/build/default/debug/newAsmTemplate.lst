@@ -1,0 +1,43 @@
+
+
+Microchip Technology PIC18 Macro Assembler V1.43 build -156212558 
+                                                                                                           Thu Nov 02 16:44:24 2017
+
+
+     1                           	processor	18F4520
+     2                           	opt	pw 132
+     3                           	psect	mytext,local,reloc=2,class=CODE,delta=1
+     4  0000                     stk_offset	set	0
+     5  0000                     auto_size	set	0
+     6                           
+     7                           ; stack_auto defines a symbol /name/_offset which equates to the
+     8                           ; stack offset of the auto object in question
+     9  0000                     
+    10                           ; stack_param defines a symbol /name/_offset which equates to the
+    11                           ; stack offset of the parameter object in question
+    12  0000                     
+    13                           ; alloc_stack adjusts the SP to allocate space for auto objects
+    14                           ; it also links in to the btemp symbol so that can be used
+    15  0000                     
+    16                           ; restore_stack adjusts the SP to remove all auto and parameter
+    17                           ; objects from the stack prior to returning from a function
+    18  0000                     
+    19                           	psect	mytext
+    20  007FD6                     _add:
+    21                           	opt stack 0
+    22                           
+    23                           ;add 1L 2L to 1L
+    24  007FD6  5103               	movf	3,w,b
+    25  007FD8  2701               	addwf	1,f,b
+    26                           
+    27                           ;add 1U 2U and carry to 1U
+    28  007FDA  5104               	movf	4,w,b
+    29  007FDC  2302               	addwfc	2,f,b
+    30  007FDE  0012               	return	
+
+
+Microchip Technology PIC18 Macro Assembler V1.43 build -156212558 
+Symbol Table                                                                                               Thu Nov 02 16:44:24 2017
+
+                        _add 7FD6                         var1L 000001                         var2L 000003  
+                       var1U 000002                         var2U 000004  
