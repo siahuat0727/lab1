@@ -1,0 +1,49 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Nov 09 17:51:27 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00004c
+                   .cinit    romdata   0x00004c    program   0x000002
+                    dbgP0       code   0x007dc0    program   0x000240
+.config_300001_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300001    program   0x000001
+.config_300003_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300003    program   0x000001
+.config_300006_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300006    program   0x000001
+                    dbgD0      udata   0x0005f4       data   0x00000c
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00004d      
+                            0x007dc0    0x007fff      
+                            0x300001    0x300001      
+                            0x300003    0x300003      
+                            0x300006    0x300006      
+            657 out of 33048 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  _1LOOP1   0x000024    program     static C:\Users\User\MPLABXProjects\lab.X\newAsmTemplate.asm
+                  _1LOOP2   0x000020    program     static C:\Users\User\MPLABXProjects\lab.X\newAsmTemplate.asm
+                   loop_1   0x00001a    program     static C:\Users\User\MPLABXProjects\lab.X\newAsmTemplate.asm
+                   loop_2   0x000042    program     static C:\Users\User\MPLABXProjects\lab.X\newAsmTemplate.asm
+                    start   0x00000c    program     static C:\Users\User\MPLABXProjects\lab.X\newAsmTemplate.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x00000c    program     static C:\Users\User\MPLABXProjects\lab.X\newAsmTemplate.asm
+                   loop_1   0x00001a    program     static C:\Users\User\MPLABXProjects\lab.X\newAsmTemplate.asm
+                  _1LOOP2   0x000020    program     static C:\Users\User\MPLABXProjects\lab.X\newAsmTemplate.asm
+                  _1LOOP1   0x000024    program     static C:\Users\User\MPLABXProjects\lab.X\newAsmTemplate.asm
+                   loop_2   0x000042    program     static C:\Users\User\MPLABXProjects\lab.X\newAsmTemplate.asm
+
+

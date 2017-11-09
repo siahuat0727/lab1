@@ -1,0 +1,7 @@
+Warning[205] C:\USERS\USER\MPLABXPROJECTS\LAB.X\NEWASMTEMPLATE.ASM 4 : Found directive in column 1. (LIST)
+Warning[207] C:\USERS\USER\MPLABXPROJECTS\LAB.X\NEWASMTEMPLATE.ASM 12 : Found label after column 1. (L1)
+Warning[207] C:\USERS\USER\MPLABXPROJECTS\LAB.X\NEWASMTEMPLATE.ASM 13 : Found label after column 1. (L2)
+Warning[207] C:\USERS\USER\MPLABXPROJECTS\LAB.X\NEWASMTEMPLATE.ASM 28 : Found label after column 1. (LOOP2)
+Warning[207] C:\USERS\USER\MPLABXPROJECTS\LAB.X\NEWASMTEMPLATE.ASM 31 : Found label after column 1. (LOOP1)
+Warning[202] C:\USERS\USER\MPLABXPROJECTS\LAB.X\NEWASMTEMPLATE.ASM 61 : Argument out of range.  Least significant bits used.
+Warning[205] C:\USERS\USER\MPLABXPROJECTS\LAB.X\NEWASMTEMPLATE.ASM 66 : Found directive in column 1. (end)
